@@ -1,26 +1,24 @@
-# avocado-capstone-Maponya
-Public repository for the datasets used in the my workplace project 
-# Avocado Price Prediction — Capstone Project
+# Avocado Price Prediction - Capstone Project
 
-This repository contains my capstone project for predicting avocado prices.
+This project uses avocado sales data from 2015 to 2023 to predict average avocado prices.  
+It includes data cleaning, exploratory data analysis, and model training.
 
-## Files in this repo
-- `avocado_analysis.ipynb` → my Jupyter Notebook with all cleaning, feature engineering, and modeling
-- `avocado_clean.zip` → cleaned dataset (unzip before using)
-- `trello_board.json` → export of my Trello board that tracked the project workflow
-- `README.md` → this file
+## Files
+- avocado_analysis.ipynb → notebook with all code and analysis  
+- avocado_clean.zip → cleaned dataset (unzip before use)  
+- trello_board.json → Trello project export  
+- README.md → this file  
 
-## How to use
-1. Download the repo or clone it.  
-2. Unzip `avocado_clean.zip` to get `avocado_clean.csv`.  
-3. Open `avocado_analysis.ipynb` in Jupyter Notebook or VS Code.  
-4. Run the notebook top to bottom.  
+## What was done
+- Cleaned and prepared the dataset  
+- Explored price trends by year, region, and type  
+- Built and tested three models  
+- Selected Random Forest as the best model for price prediction  
 
-## Project steps covered so far
-- Cleaned missing values  
-- Log-transformed TotalVolume  
-- Standardized date into Year, Month, Week  
-- Encoded type (conventional = 0, organic = 1)  
-- Encoded region using one-hot encoding  
+## Summary
+Organic avocados are generally more expensive, and prices vary by region and season.  
+The Random Forest model gave the most accurate results and was chosen as the final model.
 
-#
+## Data source
+Kaggle - Avocado Prices and Sales Volume 2015–2023  
+https://www.kaggle.com/datasets/vakhariapujan/avocado-prices-and-sales-volume-2015-2023
